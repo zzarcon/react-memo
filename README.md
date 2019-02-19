@@ -8,13 +8,13 @@
 ### Install
 
 ```
-$ yarn add reactmemo
+$ yarn add react-memo-polyfill
 ```
 
 ### Usage
 
 ```javascript
-import memo from 'reactmemo'
+import memo from 'react-memo-polyfill'
 
 function MyComponent(props) { }
 
@@ -24,7 +24,7 @@ memo(MyComponent)
 Optionally pass your compare function
 
 ```javascript
-import memo from 'reactmemo'
+import memo from 'react-memo-polyfill'
 
 function MyComponent(props) { }
 function areEqual(prevProps, nextProps) {
